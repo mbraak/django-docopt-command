@@ -2,12 +2,12 @@
 
 [![Build Status](https://travis-ci.org/mbraak/django-docopt-command.png?branch=master)](https://travis-ci.org/mbraak/django-docopt-command)
 
-Django-docopt-command allows you to write [Django](www.djangoproject.com) [manage.py](https://docs.djangoproject.com/en/dev/howto/custom-management-commands/) commands using the [docopt](www.docopt.org) library. This means that you can define commands using usage strings.
+Django-docopt-command allows you to write [Django](https://www.djangoproject.com) [manage.py](https://docs.djangoproject.com/en/dev/howto/custom-management-commands/) commands using the [docopt](http://www.docopt.org) library. This means that you can define commands using usage strings.
 
 References:
 
-* [Django](www.djangoproject.com): The Web framework for perfectionists with deadlines
-* [The docopt library](www.docopt.org): Command-line interface description language
+* [Django](https://www.djangoproject.com): The Web framework for perfectionists with deadlines
+* [The docopt library](http://www.docopt.org): Command-line interface description language
 * [Writing custom django-admin commands](https://docs.djangoproject.com/en/dev/howto/custom-management-commands/)
 
 ```
