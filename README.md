@@ -1,6 +1,7 @@
 # Django docopt command
 
 [![Build Status](https://travis-ci.org/mbraak/django-docopt-command.png?branch=master)](https://travis-ci.org/mbraak/django-docopt-command)
+[![Coverage Status](https://coveralls.io/repos/mbraak/django-docopt-command/badge.png?branch=master)](https://coveralls.io/r/mbraak/django-docopt-command?branch=master)
 
 Django-docopt-command allows you to write [Django](https://www.djangoproject.com) [manage.py](https://docs.djangoproject.com/en/dev/howto/custom-management-commands/) commands using the [docopt](http://www.docopt.org) library. This means that you can define commands using usage strings.
 
