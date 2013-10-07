@@ -27,15 +27,30 @@ class DocoptTests(unittest.TestCase):
             "remove mine at position 15 25\n"
         )
 
+    def test_help(self):
+        def run_help():
+            command = get_command('naval_fate')
+
+            with capture_standard_out() as out:
+                command.print_help('naval_fate', '')
+
+            stdout, _ = out
+
+        run_help()
+
 
 def call_docopt_command(name, arg_string):
     arguments = ['manage.py', name] + arg_string.split(' ')
 
-    app_name = get_commands()[name]
-    command = load_command_class(app_name, name)
+    command = get_command(name)
 
     with capture_standard_out() as out:
         command.run_from_argv(arguments)
 
     stdout, _ = out
     return stdout
+
+
+def get_command(name):
+    app_name = get_commands()[name]
+    return load_command_class(app_name, name)
