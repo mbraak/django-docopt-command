@@ -1,0 +1,3 @@
+violations:
+  pep8: pep8 . --exclude='*migrations*','build' --ignore=E501
+  sloccount: sloccount django_docopt_command
