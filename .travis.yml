@@ -14,7 +14,7 @@ install:
 script:
   - cd testproject
   - python manage.py test
-  - coverage run --source=django_docopt_command,docopt_example manage.py test
+  - coverage run --source=django_docopt_command,testproject manage.py test
   - coverage report -m
 before_install:
   - pip install pep8
