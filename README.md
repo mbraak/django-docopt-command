@@ -65,7 +65,8 @@ class Command(DocOptCommand):
 	docs = "Usage: command <option1> <option2> [--flag1]"
 
 	def handle_docopt(self, arguments):
-		pass
+		option1 = arguments['option1]
+		option2 = arguments['option2']
 ```
 
 ## License
