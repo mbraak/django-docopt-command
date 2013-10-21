@@ -31,8 +31,8 @@ def capture_standard_out():
 
         yield out
     finally:
-        out[0]= out[0].getvalue()
-        out[1]= out[1].getvalue()
+        out[0] = out[0].getvalue()
+        out[1] = out[1].getvalue()
 
         sys.stdout.close()
         sys.stdout = previous_stdout

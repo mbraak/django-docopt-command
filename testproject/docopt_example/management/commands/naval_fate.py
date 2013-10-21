@@ -4,7 +4,7 @@ from django_docopt_command import DocOptCommand
 
 
 naval_fate_docs =\
-"""Usage:
+    """Usage:
   naval_fate ship new <name>...
   naval_fate ship <name> move <x> <y> [--speed=<kn>]
   naval_fate ship shoot <x> <y>
