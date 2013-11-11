@@ -74,3 +74,6 @@ class Command(DocOptCommand):
 ## License
 
 Django-docopt-command is licensed under the Apache 2.0 License.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mbraak/django-docopt-command/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
