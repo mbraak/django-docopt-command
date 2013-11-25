@@ -8,7 +8,7 @@
 
 [![Downloads](https://pypip.in/v/django-docopt-command/badge.png)](https://pypi.python.org/pypi/django-docopt-command/)
 
-[![Violations](https://coviolations.io/projects/mbraak/django-docopt-command/badge/?)](https://coviolations.io/#/project/mbraak/django-docopt-command)
+[![Violations](https://coviolations.io/projects/mbraak/django-docopt-command/badge/?)](https://coviolations.io/#/projects/mbraak/django-docopt-command)
 
 Django-docopt-command allows you to write [Django](https://www.djangoproject.com) [manage.py](https://docs.djangoproject.com/en/dev/howto/custom-management-commands/) commands using the [docopt](http://www.docopt.org) library. This means that you can define commands using usage strings.
 
