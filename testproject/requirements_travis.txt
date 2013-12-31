@@ -1,8 +1,8 @@
 coverage==3.7.1
-coveralls==0.3
+coveralls==0.4
 coviolations_app==0.24
 pep8==1.4.6
-PyGithub==1.22.0
+PyGithub==1.23.0
 PyYAML==3.10
 requests==2.1.0
 sh==1.09
