@@ -14,4 +14,13 @@ setup(
     author_email='mbraak@ridethepony.nl',
     install_requires=['django', 'docopt'],
     description='Django-docopt-command allows you to write Django manage.py commands using the docopt library',
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Framework :: Django",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: Apache Software License",
+        "Programming Language :: Python :: 2.6",
+        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.3",
+    ]
 )
