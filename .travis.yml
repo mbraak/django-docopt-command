@@ -6,7 +6,8 @@ python:
 env:
   - DJANGO=Django==1.4.10
   - DJANGO=Django==1.5.5
-  - DJANGO=Django==1.6.1
+  - DJANGO=Django==1.6.2
+  - DJANGO=https://www.djangoproject.com/download/1.7a2/tarball/
 install:
   - pip install $DJANGO
   - python setup.py install
@@ -14,8 +15,6 @@ install:
 script:
   - cd testproject
   - python manage.py test
-  - coverage run --source=django_docopt_command,testproject manage.py test
-  - coverage report -m
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -qq sloccount
@@ -25,5 +24,7 @@ after_success:
   - covio
 matrix:
   exclude:
+    - python: 2.6
+      env: DJANGO=https://www.djangoproject.com/download/1.7a2/tarball/
     - python: 3.3
       env: DJANGO=Django==1.4.10
