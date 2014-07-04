@@ -12,7 +12,7 @@ setup(
     zip_safe=False,
     author='Marco Braak',
     author_email='mbraak@ridethepony.nl',
-    install_requires=['django', 'docopt'],
+    install_requires=['docopt'],
     description='Django-docopt-command allows you to write Django manage.py commands using the docopt library',
     classifiers=[
         "Development Status :: 5 - Production/Stable",
