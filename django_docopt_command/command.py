@@ -46,17 +46,17 @@ class DocOptCommand(BaseCommand):
                 # Django 1.5+
                 # self.stderr is not guaranteed to be set here
                 stderr = getattr(self, 'stderr', OutputWrapper(sys.stderr, self.style.ERROR))
-                if getattr(arguments, 'traceback', False):
+                if arguments.get('--traceback', False):
                     stderr.write(traceback.format_exc())
                 else:
                     stderr.write('%s: %s' % (e.__class__.__name__, e))
                 sys.exit(1)
 
     def _handle_default_options(self, arguments):
-        if hasattr(arguments, 'settings'):
+        if arguments.get('settings'):
             os.environ['DJANGO_SETTINGS_MODULE'] = arguments['settings']
 
-        if hasattr(arguments, 'pythonpath'):
+        if arguments.get('pythonpath'):
             sys.path.insert(0, arguments['pythonpath'])
 
     def handle(self, *args, **options):
