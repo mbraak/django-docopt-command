@@ -14,7 +14,7 @@ References:
 * [The docopt library](http://www.docopt.org): Command-line interface description language
 * [Writing custom django-admin commands](https://docs.djangoproject.com/en/dev/howto/custom-management-commands/)
 
-```
+```python
 class Command(DocOptCommand):
 	# This usage string defines the command options:
 	docs = "Usage: command <option1> <option2> [--flag1]"
@@ -44,21 +44,21 @@ Write a Django custom management command, as described in [Writing custom django
 
 **Step 2 - inherit from DocOptCommand**
 
-```
+```python
 class Command(DocOptCommand):
 	pass
 ```
 
 **Step 3 - add a docs string**
 
-```
+```python
 class Command(DocOptCommand):
 	docs = "Usage: command <option1> <option2> [--flag1]"
 ```
 
 **Step 4 - override handle_docopt**
 
-```
+```python
 class Command(DocOptCommand):
 	docs = "Usage: command <option1> <option2> [--flag1]"
 
@@ -70,6 +70,3 @@ class Command(DocOptCommand):
 ## License
 
 Django-docopt-command is licensed under the Apache 2.0 License.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mbraak/django-docopt-command/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
