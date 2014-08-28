@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/mbraak/django-docopt-command.png?branch=master)](https://travis-ci.org/mbraak/django-docopt-command) [![Coverage Status](https://coveralls.io/repos/mbraak/django-docopt-command/badge.png?branch=master)](https://coveralls.io/r/mbraak/django-docopt-command?branch=master) [![Downloads](https://pypip.in/d/django-docopt-command/badge.png)](https://pypi.python.org/pypi/django-docopt-command/) [![Downloads](https://pypip.in/v/django-docopt-command/badge.png)](https://pypi.python.org/pypi/django-docopt-command/) [![Requirements Status](https://requires.io/github/mbraak/django-docopt-command/requirements.png?branch=master)](https://requires.io/github/mbraak/django-docopt-command/requirements/?branch=master)
 
+[![Wheel Status](https://pypip.in/wheel/django-docopt-command/badge.png)](https://pypi.python.org/pypi/django-docopt-command/) [![Egg Status](https://pypip.in/egg/django-docopt-command/badge.png)](https://pypi.python.org/pypi/django-docopt-command/) [![License](https://pypip.in/license/django-docopt-command/badge.png)](https://pypi.python.org/pypi/django-docopt-command/)
+
 
 [![Violations](https://coviolations.io/projects/mbraak/django-docopt-command/badge/?)](https://coviolations.io/#/projects/mbraak/django-docopt-command)
 
