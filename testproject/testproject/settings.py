@@ -5,7 +5,7 @@ INSTALLED_APPS = (
     'docopt_example',
 )
 
-SECRET_KEY = '19a9dfb2b77241ef8d504229d3e11b09'
+SECRET_KEY = 'secret'
 
 DATABASES = dict(
     default=dict(
@@ -17,3 +17,5 @@ DATABASES = dict(
         PORT='',
     )
 )
+
+MIDDLEWARE_CLASSES = []
