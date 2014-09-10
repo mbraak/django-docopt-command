@@ -1,5 +1,6 @@
+import unittest
+
 from django.core.management import get_commands, load_command_class
-from django.utils import unittest
 
 from .util import capture_standard_out
 
