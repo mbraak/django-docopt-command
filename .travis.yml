@@ -17,7 +17,7 @@ install:
 script:
   - cd testproject
   - python manage.py test docopt_example
-  - coverage run --source=django_docopy_command,docopt_example manage.py test docopt_example
+  - coverage run --source=django_docopt_command,docopt_example manage.py test docopt_example
   - coverage report
 before_install:
   - sudo apt-get update -qq
