@@ -63,7 +63,7 @@ class Command(DocOptCommand):
 	docs = "Usage: command <option1> <option2> [--flag1]"
 
 	def handle_docopt(self, arguments):
-		option1 = arguments['option1]
+		option1 = arguments['option1']
 		option2 = arguments['option2']
 ```
 
