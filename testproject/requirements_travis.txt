@@ -5,4 +5,4 @@ pep8==1.5.7
 PyGithub==1.25.2
 PyYAML==3.11
 requests==2.5.1
-sh==1.09
+sh==1.10
