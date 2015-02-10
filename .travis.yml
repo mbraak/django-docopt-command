@@ -17,15 +17,10 @@ install:
   - pip install -r testproject/requirements_travis.txt
 script:
   - python testproject/manage.py test docopt_example
-  - coverage run --source=django_docopt_command,docopt_example testproject/manage.py test docopt_example
+  - coverage run --source=django_docopt_command,testproject/docopt_example testproject/manage.py test docopt_example
   - coverage report
-before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -qq sloccount
 after_success:
   - coveralls
-  - cd ..
-  - covio
 matrix:
   exclude:
     - python: 2.6
