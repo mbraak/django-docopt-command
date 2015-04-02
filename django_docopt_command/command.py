@@ -14,11 +14,7 @@ import traceback
 from docopt import docopt
 
 from django.core.management import BaseCommand
-
-try:
-    from django.core.management.base import OutputWrapper
-except ImportError:
-    OutputWrapper = None
+from django.core.management.base import OutputWrapper
 
 
 class DocOptCommand(BaseCommand):
@@ -39,18 +35,13 @@ class DocOptCommand(BaseCommand):
         try:
             self.execute(*[], **arguments)
         except Exception as e:
-            if not OutputWrapper:
-                # Django 1.4
-                raise
+            # self.stderr is not guaranteed to be set here
+            stderr = getattr(self, 'stderr', OutputWrapper(sys.stderr, self.style.ERROR))
+            if arguments.get('--traceback', False):
+                stderr.write(traceback.format_exc())
             else:
-                # Django 1.5+
-                # self.stderr is not guaranteed to be set here
-                stderr = getattr(self, 'stderr', OutputWrapper(sys.stderr, self.style.ERROR))
-                if arguments.get('--traceback', False):
-                    stderr.write(traceback.format_exc())
-                else:
-                    stderr.write('%s: %s' % (e.__class__.__name__, e))
-                sys.exit(1)
+                stderr.write('%s: %s' % (e.__class__.__name__, e))
+            sys.exit(1)
 
     def _handle_default_options(self, arguments):
         if arguments.get('settings'):
