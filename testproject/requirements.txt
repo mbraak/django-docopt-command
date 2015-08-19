@@ -1,2 +1,2 @@
-Django==1.8.3
+Django==1.8.4
 docopt==0.6.2
