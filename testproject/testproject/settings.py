@@ -19,3 +19,5 @@ DATABASES = dict(
 )
 
 MIDDLEWARE_CLASSES = []
+
+ROOT_URLCONF = 'testproject.urls'
