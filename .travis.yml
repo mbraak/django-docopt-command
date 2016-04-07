@@ -5,8 +5,9 @@ python:
   - 3.5
   - pypy
 env:
-  - DJANGO=Django==1.8.9
-  - DJANGO=Django==1.9.2
+  - DJANGO=Django==1.8.12
+  - DJANGO=Django==1.9.5
+>>>>>>> master
 install:
   - pip install $DJANGO
   - pip install -e .
@@ -20,6 +21,6 @@ after_success:
 matrix:
   exclude:
     - python: pypy
-      env: DJANGO=Django==1.8.9
+      env: DJANGO=Django==1.8.12
     - python: pypy
-      env: Django==1.9
+      env: Django==1.9.5
