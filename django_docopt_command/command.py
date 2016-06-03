@@ -32,6 +32,8 @@ class DocOptCommand(BaseCommand):
 
         self._handle_default_options(arguments)
 
+        arguments.setdefault('no_color', False)
+
         try:
             self.execute(*[], **arguments)
         except Exception as e:
