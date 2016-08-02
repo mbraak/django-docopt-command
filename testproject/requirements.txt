@@ -1,2 +1,2 @@
-https://www.djangoproject.com/download/1.10rc1/tarball/
+Django==1.10
 docopt==0.6.2
