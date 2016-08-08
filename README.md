@@ -26,6 +26,8 @@ class Command(DocOptCommand):
 
 Django-docopt-command is tested with Django 1.8-1.10 and Python 2.7, 3.3-3.5 and is hosted on [github](https://github.com/mbraak/django-docopt-command).
 
+Note that version 0.2.2 also supports Django 1.7.
+
 ### Example
 
 See the *testproject/docopt_example* in the django-docopt-command github repository.
