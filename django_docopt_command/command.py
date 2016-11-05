@@ -42,7 +42,7 @@ class DocOptCommand(BaseCommand):
             if arguments.get('--traceback', False):
                 stderr.write(traceback.format_exc())
             else:
-                stderr.write('%s: %s' % (e.__class__.__name__, e))
+                stderr.write('{0!s}: {1!s}'.format(e.__class__.__name__, e))
             sys.exit(1)
 
     def _handle_default_options(self, arguments):

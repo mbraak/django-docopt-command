@@ -28,7 +28,7 @@ class Command(DocOptCommand):
         if arguments.get('new') and arguments.get('ship'):
             ships = arguments['<name>']
 
-            print('new ship: %s' % ', '.join(ships))
+            print('new ship: {0!s}'.format(', '.join(ships)))
         elif arguments.get('ship') and arguments.get('move'):
             ship = arguments['<name>'][0]
             x = arguments['<x>']
@@ -36,21 +36,21 @@ class Command(DocOptCommand):
             speed = arguments['--speed']
 
             if speed:
-                print('move ship %s to %s %s with speed %s' % (ship, x, y, speed))
+                print('move ship {0!s} to {1!s} {2!s} with speed {3!s}'.format(ship, x, y, speed))
             else:
-                print('move ship %s to %s %s' % (ship, x, y))
+                print('move ship {0!s} to {1!s} {2!s}'.format(ship, x, y))
         elif arguments.get('ship') and arguments.get('shoot'):
             x = arguments['<x>']
             y = arguments['<y>']
 
-            print('shoot ship %s %s' % (x, y))
+            print('shoot ship {0!s} {1!s}'.format(x, y))
         elif arguments.get('mine') and arguments.get('set'):
             x = arguments['<x>']
             y = arguments['<y>']
             moored = arguments.get('--moored')
             drifting = arguments.get('--drifting')
 
-            print('set mine at position %s %s' % (x, y))
+            print('set mine at position {0!s} {1!s}'.format(x, y))
 
             if moored:
                 print('moored')
@@ -62,7 +62,7 @@ class Command(DocOptCommand):
             moored = arguments.get('--moored')
             drifting = arguments.get('--drifting')
 
-            print('remove mine at position %s %s' % (x, y))
+            print('remove mine at position {0!s} {1!s}'.format(x, y))
 
             if moored:
                 print('moored')
