@@ -72,3 +72,5 @@ class Command(DocOptCommand):
 ## License
 
 Django-docopt-command is licensed under the Apache 2.0 License.
+
+[![Code Issues](https://www.quantifiedcode.com/api/v1/project/72b39407867b476fa3f0a1ac965af856/badge.svg)](https://www.quantifiedcode.com/app/project/72b39407867b476fa3f0a1ac965af856)
