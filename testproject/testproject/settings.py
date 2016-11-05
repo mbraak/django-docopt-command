@@ -5,7 +5,7 @@ INSTALLED_APPS = (
     'docopt_example',
 )
 
-SECRET_KEY = 'secret'
+SECRET_KEY = 'test_key'
 
 DATABASES = dict(
     default=dict(
