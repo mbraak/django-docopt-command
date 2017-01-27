@@ -30,5 +30,5 @@ matrix:
       env: DJANGO="https://www.djangoproject.com/download/1.11a1/tarball/"
     - python: pypy
       env: DJANGO="https://github.com/django/django/archive/master.zip"
-    - python: 2.7:
+    - python: 2.7
       env: DJANGO="https://github.com/django/django/archive/master.zip"
