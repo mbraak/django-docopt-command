@@ -8,8 +8,7 @@ env:
   - DJANGO="Django==1.8.18"
   - DJANGO="Django==1.9.13"
   - DJANGO="Django==1.10.7"
-  - DJANGO="Django==1.11"
-  - DJANGO="https://github.com/django/django/archive/master.zip"
+  - DJANGO="Django==1.11.2"
 install:
   - pip install $DJANGO
   - pip install -e .
@@ -27,8 +26,4 @@ matrix:
     - python: pypy
       env: DJANGO=Django==1.9.13
     - python: pypy
-      env: DJANGO="Django==1.11"
-    - python: pypy
-      env: DJANGO="https://github.com/django/django/archive/master.zip"
-    - python: 2.7
-      env: DJANGO="https://github.com/django/django/archive/master.zip"
+      env: DJANGO="Django==1.11.2"
