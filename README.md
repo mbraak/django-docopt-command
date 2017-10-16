@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/mbraak/django-docopt-command.svg?branch=master)](https://travis-ci.org/mbraak/django-docopt-command) [![Version](https://badge.fury.io/py/django-docopt-command.svg)](https://pypi.python.org/pypi/django-docopt-command/)
 
-[![Coverage Status](https://img.shields.io/coveralls/mbraak/django-docopt-command.svg)](https://coveralls.io/r/mbraak/django-docopt-command?branch=master) [![Downloads](https://img.shields.io/pypi/dm/django-docopt-command.svg)](https://pypi.python.org/pypi/django-docopt-command/) [![Requirements Status](https://requires.io/github/mbraak/django-docopt-command/requirements.svg?branch=master)](https://requires.io/github/mbraak/django-docopt-command/requirements/?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/mbraak/django-docopt-command.svg)](https://coveralls.io/r/mbraak/django-docopt-command?branch=master) [![Requirements Status](https://requires.io/github/mbraak/django-docopt-command/requirements.svg?branch=master)](https://requires.io/github/mbraak/django-docopt-command/requirements/?branch=master)
 
 [![License](https://img.shields.io/pypi/l/django-docopt-command.svg)](https://pypi.python.org/pypi/django-docopt-command/)
 
