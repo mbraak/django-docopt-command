@@ -13,7 +13,7 @@ setup(
     author='Marco Braak',
     author_email='mbraak@ridethepony.nl',
     install_requires=['docopt'],
-    description='Django-docopt-command allows you to write Django manage.py commands using the docopt library',
+    description='Django-docopt-command allows you to write Django manage.py commands using the docopt library. Docs at https://github.com/mbraak/django-docopt-command',
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Framework :: Django",
