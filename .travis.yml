@@ -5,11 +5,11 @@ python:
   - 3.6
   - pypy
 env:
-  - DJANGO="Django==1.8.18"
+  - DJANGO="Django==1.8.19"
   - DJANGO="Django==1.9.13"
   - DJANGO="Django==1.10.8"
-  - DJANGO="Django==1.11.10"
-  - DJANGO="Django==2.0.2"
+  - DJANGO="Django==1.11.11"
+  - DJANGO="Django==2.0.3"
 install:
   - pip install $DJANGO
   - pip install -e .
@@ -23,12 +23,12 @@ after_success:
 matrix:
   exclude:
     - python: pypy
-      env: DJANGO="Django==1.8.18"
+      env: DJANGO="Django==1.8.19"
     - python: pypy
       env: DJANGO="Django==1.9.13"
     - python: pypy
       env: DJANGO="Django==1.10.8"
     - python: pypy
-      env: DJANGO="Django==2.0.2"
+      env: DJANGO="Django==2.0.3"
     - python: 2.7
-      env: DJANGO="Django==2.0.2"
+      env: DJANGO="Django==2.0.3"
