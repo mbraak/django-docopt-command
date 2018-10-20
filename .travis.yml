@@ -4,10 +4,8 @@ matrix:
   include:
     - python: 2.7
       env: DJANGO="Django==1.11.16"
-    - python: 3.7
+    - python: 3.6
       env: DJANGO="Django==1.11.16"
-      dist: xenial
-      sudo: true
     - python: 3.7
       env: DJANGO="Django==2.0.9"
       dist: xenial
