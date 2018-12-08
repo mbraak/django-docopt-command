@@ -32,6 +32,7 @@ class DocOptCommand(BaseCommand):
 
         self._handle_default_options(arguments)
 
+        arguments.setdefault('force_color', False)
         arguments.setdefault('no_color', False)
 
         try:
