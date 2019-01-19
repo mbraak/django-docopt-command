@@ -1,10 +1,10 @@
 # Django docopt command
 
-[![Build Status](https://travis-ci.org/mbraak/django-docopt-command.svg?branch=master)](https://travis-ci.org/mbraak/django-docopt-command) [![Version](https://badge.fury.io/py/django-docopt-command.svg)](https://pypi.python.org/pypi/django-docopt-command/)
+[![Build Status](https://img.shields.io/travis/mbraak/django-docopt-command.svg?style=for-the-badge)](https://travis-ci.org/mbraak/django-docopt-command) [![Version](https://img.shields.io/pypi/v/django-docopt-command.svg?colorB=brightgreen&style=for-the-badge)](https://pypi.python.org/pypi/django-docopt-command/)
 
-[![Coverage Status](https://img.shields.io/coveralls/mbraak/django-docopt-command.svg)](https://coveralls.io/r/mbraak/django-docopt-command?branch=master) [![Requirements Status](https://requires.io/github/mbraak/django-docopt-command/requirements.svg?branch=master)](https://requires.io/github/mbraak/django-docopt-command/requirements/?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/mbraak/django-docopt-command.svg?style=for-the-badge)](https://coveralls.io/r/mbraak/django-docopt-command?branch=master) [![Requirements Status](https://img.shields.io/requires/github/mbraak/django-docopt-command.svg?style=for-the-badge)](https://requires.io/github/mbraak/django-docopt-command/requirements/?branch=master)
 
-[![License](https://img.shields.io/pypi/l/django-docopt-command.svg)](https://pypi.python.org/pypi/django-docopt-command/)
+[![License](https://img.shields.io/pypi/l/django-docopt-command.svg?style=for-the-badge&colorB=brightgreen)](https://pypi.python.org/pypi/django-docopt-command/)
 
 Django-docopt-command allows you to write [Django](https://www.djangoproject.com) [manage.py](https://docs.djangoproject.com/en/dev/howto/custom-management-commands/) commands using the [docopt](http://www.docopt.org) library. This means that you can define commands using usage strings.
 
