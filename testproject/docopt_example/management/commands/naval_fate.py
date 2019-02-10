@@ -1,5 +1,3 @@
-from __future__ import print_function
-
 from django_docopt_command import DocOptCommand
 
 

@@ -7,7 +7,7 @@ this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-version = '0.5.0'
+version = '1.0.0'
 
 setup(
     name='django-docopt-command',
@@ -26,13 +26,11 @@ setup(
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Framework :: Django",
-        "Framework :: Django :: 1.11",
         "Framework :: Django :: 2.0",
         "Framework :: Django :: 2.1",
         "Framework :: Django :: 2.2",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
-        "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
