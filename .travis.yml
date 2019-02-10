@@ -22,6 +22,10 @@ matrix:
       env: DJANGO="https://www.djangoproject.com/download/2.2a1/tarball/"
       dist: xenial
       sudo: true
+    - python: 3.7
+      env: DJANGO="https://github.com/django/django/archive/master.zip"
+      dist: xenial
+      sudo: true
 install:
   - pip install $DJANGO
   - pip install -e .
