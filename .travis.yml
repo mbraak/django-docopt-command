@@ -3,15 +3,15 @@ sudo: false
 matrix:
   include:
     - python: 2.7
-      env: DJANGO="Django==1.11.18"
+      env: DJANGO="Django==1.11.20"
     - python: 3.6
-      env: DJANGO="Django==1.11.18"
+      env: DJANGO="Django==1.11.20"
     - python: 3.7
-      env: DJANGO="Django==2.0.10"
+      env: DJANGO="Django==2.0.13"
       dist: xenial
       sudo: true
     - python: 3.7
-      env: DJANGO="Django==2.1.5"
+      env: DJANGO="Django==2.1.7"
       dist: xenial
       sudo: true
 install:
