@@ -34,6 +34,7 @@ class DocOptCommand(BaseCommand):
 
         arguments.setdefault('force_color', False)
         arguments.setdefault('no_color', False)
+        arguments.setdefault('skip_checks', True)
 
         try:
             self.execute(*[], **arguments)
