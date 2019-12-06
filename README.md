@@ -24,7 +24,7 @@ class Command(DocOptCommand):
 		pass
 ```
 
-Django-docopt-command is tested with Django 2.1-3.0 and Python 3.5-3.7 and is hosted on [github](https://github.com/mbraak/django-docopt-command).
+Django-docopt-command is tested with Django 2.1-3.0 and Python 3.5-3.8 and is hosted on [github](https://github.com/mbraak/django-docopt-command).
 
 Note that version 0.4.0 also supports Django 1.11 - 2.0.
 
