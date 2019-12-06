@@ -14,6 +14,10 @@ matrix:
       env: DJANGO="Django==3.0"
       dist: xenial
       sudo: true
+    - python: 3.8
+      env: DJANGO="Django==3.0"
+      dist: bionic
+      sudo: true
 install:
   - pip install $DJANGO
   - pip install -e .
