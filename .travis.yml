@@ -9,7 +9,7 @@ matrix:
     - python: 3.8
       env: DJANGO="Django==3.0.8"
     - python: 3.8
-      env: DJANGO="Django==3.1b1"
+      env: DJANGO="Django==3.1rc1"
 install:
   - pip install $DJANGO
   - pip install -e .
